@@ -30,4 +30,6 @@
        <>if condition is a falsy value, <ConditionalComponent /> is not rendered
 
 11. Use a Set when your dataset needs to be composed of unique values. Set  is a special type          collection – “set of values” (without keys), where each value may occur only once.
-    Use a Map when you have pairs of associated data. You map the keys to the values
+    you can't access elements by index,
+    Use a Map when you have pairs of associated data. You map the keys to the values.
+    Some of the features of maps are that the order is guaranteed, and values can be duplicated (but keys can't)
