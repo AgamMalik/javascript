@@ -28,3 +28,6 @@
           {condition && <ConditionalComponent />}
        <>if condition is a truthy value, <ConditionalComponent /> is rendered
        <>if condition is a falsy value, <ConditionalComponent /> is not rendered
+
+11. Use a Set when your dataset needs to be composed of unique values
+    Use a Map when you have pairs of associated data. You map the keys to the values
