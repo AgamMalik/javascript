@@ -33,3 +33,11 @@
     you can't access elements by index,
     Use a Map when you have pairs of associated data. You map the keys to the values.
     Some of the features of maps are that the order is guaranteed, and values can be duplicated (but keys can't)
+
+
+
+
+12. dont use let/const/var and any returntype to define a property/function in a class(unlike typescript where return type is needed)..because it will be decided by js at runtime.
+	-but we can use them to define a variable in a class..
+	as the main aim of defining a variable in a class is to store some local values for that class...
+	(but it doesnt mean that we can use that local variable outside the scope of class...we can use it..if we need..)
